@@ -1,16 +1,12 @@
 {
-    "name": "lambda-code-pipeline-cdk",
+    "name": "lambda-demo-code",
     "version": "1.0.0",
+    "main": "lambda/hello-world.ts",
     "scripts": {
-      "build": "echo 'Building...' && cp -r lambda",
-      "cdk": "cdk"
+      "build": "tsc"
     },
     "dependencies": {
-      "aws-cdk-lib": "^2.0.0",
-      "constructs": "^10.0.0"
-    },
-    "devDependencies": {
-      "aws-cdk": "^2.0.0"
+      "@types/node": "^14.14.31",
+      "typescript": "^4.1.3"
     }
   }
-  
