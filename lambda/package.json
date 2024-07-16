@@ -2,22 +2,17 @@
     "name": "lambda-demo-code",
     "version": "1.0.0",
     "description": "Lambda function for AWS CDK demo",
-    "main": "index.js", // Ensure this matches your Lambda entry point
+    "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "tsc" // Add build script if using TypeScript
+      "build": "tsc" 
     },
     "author": "Your Name",
     "license": "ISC",
     "dependencies": {
-      // Add any dependencies your Lambda function requires
-      // Example:
-      // "aws-sdk": "^2.100.0"
     },
     "devDependencies": {
-      // Add dev dependencies if needed (e.g., TypeScript, testing libraries)
-      // Example:
-      // "typescript": "^4.5.2"
+
     }
   }
   
