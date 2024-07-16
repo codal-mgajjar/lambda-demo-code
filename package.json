@@ -1,11 +1,8 @@
 {
     "name": "lambda-code-pipeline-cdk",
     "version": "1.0.0",
-    "bin": {
-      "lambda-code-pipeline-cdk": "bin/lambda-code-pipeline-cdk.js"
-    },
     "scripts": {
-      "build": "echo 'Building...' && cp -r lambda dist",
+      "build": "echo 'Building...' && cp -r lambda",
       "cdk": "cdk"
     },
     "dependencies": {
